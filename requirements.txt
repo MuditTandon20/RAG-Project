@@ -1,0 +1,29 @@
+# requirements.txt
+
+# Core LangChain framework
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.23
+
+# PDF parsing
+pymupdf==1.24.9          # Best PDF parser — fast, handles scanned PDFs
+pypdf==4.3.1             # Fallback parser — simpler but less robust
+
+# Vector database
+faiss-cpu==1.8.0         # CPU version — use faiss-gpu if you have CUDA
+
+# Embeddings + LLM
+openai==1.43.0           # OpenAI API client
+httpx==0.27.2            # Compatible with this OpenAI/LangChain stack
+
+# API layer
+fastapi==0.114.0
+uvicorn==0.30.6          # ASGI server to run FastAPI
+python-multipart==0.0.9  # Required for file uploads in FastAPI
+
+# Frontend
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1     # Load .env variables
+pydantic==2.8.2          # Data validation (FastAPI uses this)

@@ -1,0 +1,13 @@
+# .gitignore
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+.run-logs/
+.venv/
+vectorstore_index/
+data/uploads/
+rag-system/
+.DS_Store
