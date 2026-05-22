@@ -1,6 +1,6 @@
-# RAG Document Assistant
+# RAG-Project
 
-A simple Retrieval-Augmented Generation app for uploading PDF/TXT documents and asking questions grounded in those documents.
+Production-grade RAG document assistant built with LangChain, FAISS, OpenAI, FastAPI, and Streamlit.
 
 ## Stack
 
